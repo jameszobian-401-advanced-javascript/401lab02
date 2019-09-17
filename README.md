@@ -42,4 +42,4 @@ Usage Notes or examples
 * What assertions need to be / should be made?
 
 #### UML
-!includeurl ./401lab02UML.png
+![401lab02UML](401lab02UML.png)
