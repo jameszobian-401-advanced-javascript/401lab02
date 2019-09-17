@@ -120,7 +120,7 @@ describe('Validator module evaluates a basic schema', () => {
       }
     }
 
-    expect(validator.isValid(schema, testRecord)).toBeTruthy();
+    expect(validator.isValid(schema, testRecord)).toBeFalsy(); //changed truthy to falsy
   });
 
   it('isValid() returns undefined on type mismatch', () => {
